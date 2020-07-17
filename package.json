@@ -1,0 +1,24 @@
+{
+  "name": "gyve",
+  "version": "0.0.1",
+  "description": "Prototypal delegation made simple.",
+  "main": "dist/gyve.js",
+  "scripts": {
+    "build": "parcel build gyve.js --global gyve",
+    "test": "ava"
+  },
+  "keywords": [
+    "chain",
+    "delegate",
+    "delegatee",
+    "delegator",
+    "prototype",
+    "prototypal"
+  ],
+  "author": "Jakub Barczyk",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^3.10.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
