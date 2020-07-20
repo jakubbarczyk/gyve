@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.org/jakubbarczyk/gyve.svg?branch=master)](https://travis-ci.org/jakubbarczyk/gyve)
+[![build](https://travis-ci.org/jakubbarczyk/gyve.svg?branch=master)](https://travis-ci.org/jakubbarczyk/gyve)
+[![dependencies](https://david-dm.org/jakubbarczyk/gyve.svg)](https://david-dm.org/jakubbarczyk/gyve)
+[![npm package](https://badge.fury.io/js/gyve.svg)](https://badge.fury.io/js/gyve)
+[![vulnerabilities](https://snyk.io/test/github/jakubbarczyk/gyve/badge.svg)](https://snyk.io/test/github/jakubbarczyk/gyve)
 
 # Gyve
 
@@ -20,7 +23,7 @@ const gyve = require("gyve");
 
 ## Documentation
 
-Given two objects, _car_ (delegatee) and _bmw_ (delegator), use _gyve_ to prototype-chain them:
+Given two objects, `car` (delegatee) and `bmw` (delegator), use `gyve` to prototype-chain them:
 
 ```javascript
 const car = {
@@ -37,7 +40,7 @@ const electric = {
 const electricCar = gyve(car, electric);
 ```
 
-Since _gyve_ is a curried function, partial application is possible:
+Since `gyve` is a curried function, partial application is possible:
 ```javascript
 const car = { ... };
 
