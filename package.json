@@ -1,6 +1,6 @@
 {
   "name": "gyve",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prototypal delegation made simple.",
   "main": "dist/gyve.js",
   "scripts": {
